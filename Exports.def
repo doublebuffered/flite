@@ -14,10 +14,6 @@ EXPORTS
 	flite_process_output
 	usenglish_init
 	cmu_lex_init
-	cmu_dari_lang_init
-	cmu_dari_lex_init
-	cmu_pashto_lang_init
-	cmu_pashto_lex_init
 	new_voice
 	delete_voice
 	flite_feat_set
@@ -47,3 +43,10 @@ EXPORTS
 	audio_stream_chunk
 	audio_streaming_info_val
 	new_audio_streaming_info
+	new_wave
+	copy_wave
+	delete_wave
+	concat_wave
+	cst_wave_resize
+	cst_wave_resample
+	cst_wave_rescale
